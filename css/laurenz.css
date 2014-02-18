@@ -1,0 +1,189 @@
+#background-red
+{
+	background: #ff505d;
+	background-color: #ff505d;
+}
+
+#background-red-darker
+{
+	background: #d9534f;	
+}
+
+#background-red-evendarker
+{
+	background: #c72828;
+}
+
+#background-overlay-dark
+{
+	position: fixed;
+	background: black;
+	opacity: 0.5;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#background-overlay-dark:hover
+{
+	opacity: 0.45;
+}
+
+#background-image-full
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	opacity: 0.2;
+}
+.body
+{
+	background: #e9e9e9;
+	transition: background 0.75s;
+}
+
+.body:hover
+{
+	background: #ff505d;
+}
+
+#button-rounded
+{		
+	border-radius: 3px;
+}
+
+#button-rounded-front-login
+{		
+	border-radius: 3px;
+	width: 50%;
+	min-width: 200px;
+}
+
+#font
+{
+	font-family: Rockwell;
+	font-size: 22px;
+}
+.global-topbar
+{
+	background: #ff505d;	
+	width: 100%;
+	color: white;
+	border: 0px;	
+
+	position: fixed;
+	top: 0px;
+	height: 40px;
+}
+
+#hiddenspace-75
+{	
+	height: 75px;
+}
+
+#hiddenspace-50
+{
+	height: 50px;
+}
+#hiddenspace-20
+{
+	height: 20px;
+}
+
+#login-button
+{
+	background: #3276b1;
+	border-radius: 4px;
+	height: 40px;
+	line-height: 10px;
+}
+#login-register
+{
+	background: #f0ad4e;
+	border-radius: 4px;
+	height: 40px;
+	line-height: 10px;
+}
+
+#map-canvas 
+{ 
+	height: 93%; 
+	width: 70%;	
+	padding: 0px;
+	margin: 0px;
+	
+}
+#maptweets
+{
+	background-color:transparent;
+    height: 597px; 
+    overflow: auto;
+}
+#map-tweetmodule{
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px;
+}
+#textput
+{
+	border-radius: 3px;
+	width: 80%;
+	min-width: 220px;
+}
+
+#tweetbox
+{
+	border-radius: 3px;
+	background: white;
+	height: 400px;
+	width: 600px;
+	
+
+}
+
+#formbox
+{
+	border-radius: 3px;
+	background: white;
+	height: 400px;
+	width: 360px;
+}
+
+#signin-box
+{
+	position: absolute;
+	top: 50px;	
+	right: 5px;
+	background: #e9e9e9;
+	border-radius: 3px;
+	height: 220px;
+	width: 300px;
+}
+
+#signin-textput
+{
+	border-radius: 3px;
+	padding-top: 100px;
+}
+
+#tweetleft
+{
+	float: left;
+	width: 30%;	
+}
+
+#map-otherreport
+{	
+    background-color:#ff505d;
+    color: white;
+    height: 35px;
+    font-family:'Segoe UI';
+    width:24.7em;
+    border:none;
+    line-height: 1px;
+    margin:0;    
+	padding: 0px;
+}

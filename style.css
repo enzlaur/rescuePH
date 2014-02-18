@@ -1,0 +1,114 @@
+﻿body {
+    margin: 0;
+    height:100%;
+    background-color: #e9e9e9;
+}
+
+.content{
+    width: 70%;
+    clear: both;
+    margin: 0 auto;
+}
+.header{
+    background-color: #ff505d;
+    height:50px;
+    margin: 0;
+}
+
+
+.header h1{
+    font-family:Rockwell;
+    color: white;
+    float:left;
+    width: 30%;
+    margin: auto;
+    font-weight:normal;
+    font-size: 35px;
+    height:35px;
+    margin:7.5px 0;
+}
+
+.header button{
+    background-color: #a93a3a;
+    height: 35px;
+    width: 100px;
+    margin: 7.5px 0;
+    border-radius: 5px;
+    border:none;
+    float: right;
+    font-family: 'Times New Roman';
+    color:white;
+    font-size:20px;
+
+}
+
+.content_img{
+    width: 100%;
+}
+
+.sign_up{
+    height: 100px;
+    background-color:#ff505d;
+}
+
+.sign_up h1,
+.sign_up .username,
+.sign_up .password,
+.sign_up .register{
+    width: 25%;
+    float: left;
+    border: none;
+    padding: 0px;
+    border-radius: 5px;
+    height: 50px;
+    margin: 25px auto;
+    font-family: 'Times New Roman';
+    font-weight:normal;
+}
+
+.sign_up h1{
+    font-size: 50px;
+}
+
+.sign_up .username,
+.sign_up .password,
+.sign_up .register{
+    width: 22%;
+    height: 40px;
+    margin: 30px 0.5%;
+    font-family:'Times New Roman';
+    background-color: #ffafaf;
+    font-size:20px;
+    padding: 0 1%;
+}
+.sign_up .register{
+    background-color: #2cd9b4;
+    font-size: 25px;
+}
+
+.footer{
+    background-color:#a93a3a;
+    height: 50px;
+}
+
+.footer p{
+    margin: 0 auto;
+    text-align:center;
+    padding-top: 10px;
+    font-family:'Segoe UI';
+    color: #e9e9e9;
+}
+
+.header button:hover{
+    background-color:#2cd9b4;
+}
+.header button:focus{
+    outline:none;
+}
+
+.sign_up .register:hover{
+    background-color: #a93a3a;
+}
+.sign_up .register:focus{
+    outline:none;
+}

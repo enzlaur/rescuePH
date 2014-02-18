@@ -1,0 +1,83 @@
+﻿#tweetmodule{
+    background-color: white;
+    border-radius: 10px;
+    margin: 5%;
+}
+#tweets{
+    background-color:transparent;
+    height: 450px;
+    overflow: auto;
+}
+
+#tweet h2{
+    font-size:18px;
+    margin: 0;
+    float:left;
+}
+#tweet p{
+    margin: 0;
+}
+#tweet p.date{
+    margin-left:1%;
+    float:left;
+    font-style:italic;
+    color: #aeaeae;
+}
+#tweet p.tweet{
+    clear:both;
+}
+
+.tweet_content{
+    width:90%;
+    float:left;
+    margin:0;
+}
+
+#tweet .tweet_buttons{
+    width:10%;
+    float:left;
+    margin: 0;
+}
+#tweet .tweet_buttons .report, #tweet .tweet_buttons .feedback, #tweet .tweet_buttons .trash{
+    width:30%;
+}
+#tweet .tweet_buttons .report:hover{
+    background-color:#2cd9b4;
+    border-radius:2px;
+}
+#tweet .tweet_buttons .feedback:hover{
+    background-color: #f9b76f;
+    border-radius:2px;
+}
+#tweet .tweet_buttons .trash:hover{
+    background-color:#424242;
+    border-radius:2px;
+}
+#tweet{
+    background-color:transparent;
+    border-bottom: solid;
+    border-width:1px;
+    border-color:#d9d9d9;
+    overflow:auto;
+    padding:2%;
+}
+#otherreport{
+    background-color:#ff505d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    height: 30px;
+    font-family:'Segoe UI';
+    width:100%;
+    border:none;
+    line-height: 2px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#otherreport:hover{
+    background-color: #d9534f;
+}
+#otherreport:focus{
+    outline:none;
+}
