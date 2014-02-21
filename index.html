@@ -4,90 +4,107 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>rescuePH | Front</title>	
+		<link rel="stylesheet" href="css/laurenz.css">
 		<link rel="stylesheet" href="css/foundation.css"/>
-		<link rel="stylesheet" href="css/laurenz.css">	
+		<link rel="stylesheet" href="css/laurenz.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<script src="/js/vendor/modernizr.js"></script>
 	</head>
 
 	<body class="body">	
+
+		<div class="off-canvas-wrap">
+		  <div class="inner-wrap ">
+		    <nav class="tab-bar background-red">
+
+		      <section class="left-small background-red" id="left-ped">
+		        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+		      </section>
+
+		      <section class="middle tab-bar-section background-red">
+		        <span id="title">rescuePH</span>
+		      </section>
+
+		      <section class="right-small right-mod" id="right-ped">
+		        <a class="right-off-canvas-toggle" style="color: white;">
+		        	Account
+	        	</a>
+		      </section>
+
+		    </nav>
+
+		    <aside class="left-off-canvas-menu">
+		      <ul class="off-canvas-list">
+		        <li><label>Foundation</label></li>
+		        <li><a href="#">Heat Map</a></li>
+		        <li><a href="#">Tweet Module</a></li>
+		        <li><a href="#">How To Use</a></li>
+		        <li><a href="#">Contact</a></li>
+		        <li><a href="#">History</a></li>
+		      </ul>
+		    </aside>
+
+		    <aside class="right-off-canvas-menu">
+		        <ul class="off-canvas-list" id="right-canvas-content">
+			        <li><label>Sign In</label></li>
+				        <li>
+				        	<input type="text" placeholder="Username" id="canvas-content">
+				        </li>
+				        <li>
+				        	<input type="password" placeholder="Password" id="canvas-content">
+				        </li>
+				        <button id="canvas-login">Log-In</button>
+			        <li><label>Register New</label>
+			        	<li>
+				        	<input type="text" placeholder="First Name " id="canvas-content">
+				        </li>
+				        <li>
+				        	<input type="text" placeholder="Last Name " id="canvas-content">
+				        </li>
+				        <li>
+				        	<input type="text" placeholder="Email Name " id="canvas-content">
+				        </li>
+				        <li>
+				        	<input type="password" placeholder="Password" id="canvas-content">
+				        </li>
+				        <button id="canvas-login">Create Account</button>
+			        </li>
+		        </ul>
+		    </aside>
+
+		    <section class="main-section enlarge">
+		      <div class="row">
+		      	<div class="large-12 colums">
+		      		RescuePH
+		      	</div>
+		      </div>
+		      <div class="row">
+		      	<div lcass="large-4 columns">
+		      		asdfasdfa
+		      	</div>
+		      	<div class="large-8 columns">
+		      		<input type="text" placeholder="Where">
+		      		<input type="text" placeholder="Details">
+		      		<input type="text" placeholder="Contact Number">
+		      		
+		      	</div>
+		      	
+
+		      	
+		      </div>
+		    </section>
+
+		  <a class="exit-off-canvas"></a>
+
+		  </div>
+		</div>				
 		
-		<div class="contain-to-grid sticky" id="background-red">
-			<nav class="top-bar" id="background-red" data-topbar>
-				<ul class="title-area"id="background-red">
-					<li class="name"id="background-red">
-						<h1><a href="#" id="font">rescuePH</a></h1>
-					</li>
-					<li class="toggle-topbar menu-icon"id="background-red-evendarker"><a href="#">Menu</a></li>
-				</ul>
 
-				<section class="top-bar-section" id="background-red">
-					<!-- Right Nav Section -->
-					<ul class="right" id="background-red">
-						
-											
-						<!--Sign In Detals: Make Modal -->
 
-						<!-- rest of right topbar -->
-						
-						<li class="active">						
-							<a href="signin.html" data-reveal-id="signModal" id="background-red-darker">
-								Sign In
-							</a>
-						</li>		
-						
-						<li class="has-dropdown" id="background-red">
-					
-							<a href="#" id="background-red-evendarker">Menu</a>
-							<ul class="dropdown">
-
-								<li><a href="front.html">Request Help</a></li>
-								<li><a href="tweetmodule.html">Tweet Module</a></li>
-								<li><a href="map.html">View Heat Map</a></li>
-								<li><a href="#">About</a></li>
-							</ul>
-						</li>
-
-					</ul>
-
-					<!-- Left Nav Section -->
-					<ul class="left">
-						<li><a href="front.html"id="background-red">Request Help</a></li>
-					</ul>
-				</section>
-			</nav>
-	</div>
-
-		<div class="row" id="hiddenspace-50"></div>		
-
-		<div class="row">
-			
-			<div class="large-6 columns">
-				<div id="hiddenspace-75"></div>
-				Value Added Proposition
-			</div>
-			<div class="large-6 columns">
-				<center>
-					<img src="assets/logo-176.png"/>				
-					<div class="row" id="hiddenspace-50"></div>
-					<input type="text" id="textput" placeholder="Where">
-					<input type="text" id="textput" placeholder="Details">
-					<input type="text" id="textput" placeholder="Contact Number">
-					<a href="#" class="button" id="button-rounded-front-login" onmousedown="gotomap()">Submit</a>				
-				</center>
-			</div>
-		</div>
-
-		<div class="row">
-			<div id="signModal" class="reveal-modal" data-reveal>
-			  	<h2>Awesome. I have it.</h2>	
-	  			<a class="close-reveal-modal">&#215;</a>
-			</div>
-		</div>	
-	<script src="logic.js"></script>
-	<script src="js/vendor/jquery.js"></script>
-	<script src="js/foundation.min.js"></script>
-	<script src="js/foundation/foundation.js"></script>
-  	<script src="js/foundation/foundation.topbar.js"></script>
-  	<script src="js/foundation/foundation.reveal.js"></script>
-
+		<script src="js/vendor/jquery.js"></script>
+	    <script src="js/foundation.min.js"></script>
+	    <script>
+	      $(document).foundation();
+	    </script>
 	</body>
 </html>
