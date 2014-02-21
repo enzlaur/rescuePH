@@ -81,6 +81,14 @@
 	line-height: 7px;
 }
 
+#circle
+{
+	width: 200px;
+	height:200px;
+	background: #ff505d;
+	border-radius: 120px;
+
+}
 .enlarge
 {
 	min-height: 400px;
@@ -89,7 +97,7 @@
 
 #formbox
 {
-	border-radius: 3px;
+	border-radius: 90px;
 	background: white;
 	height: 400px;
 	width: 360px;

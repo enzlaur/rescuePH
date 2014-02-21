@@ -1,18 +1,33 @@
 .title
 {
 	font-family: Rockwell;
-	margin-top: 30px;
+	margin-top: 20px;
 	transition: font-size 1s;
 }
 .title-sub
 {
-	font-family: Segoe UI Light;
+	font-family: Segoe UI;
 	margin-top: 10px;
-
+}
+.title-sub.light
+{
+	font-family: Segoe UI Light;
 }
 .font-20
 {
 	font-size: 20px;
+}
+.font-25
+{
+	font-size: 25px;
+}
+.font-30
+{
+	font-size: 30px;
+}
+.font-35
+{
+	font-size: 35px;
 }
 .font-50
 {
@@ -26,7 +41,10 @@
 {
 	color: white;
 }
-
+.rockwell
+{
+	font-family: Rockwell;
+}
 @media (max-width: 1005px)
 {
 	.title
