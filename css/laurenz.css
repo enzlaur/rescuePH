@@ -298,10 +298,25 @@
 	}
 }
 
-@media(max-width: 910px)
+
+@media(min-width: 710px) and (max-width: 910px)
 {
 	#front-largebox-top
 	{
-		visibility: hidden;
+		top: 40%;
+	}
+}
+@media(min-width: 510px) and (max-width: 710px)
+{
+	#front-largebox-top
+	{
+		top: 45%;
+	}
+}
+@media(min-width: 310px) and (max-width: 510px)
+{
+	#front-largebox-top
+	{		
+		top: 50%;
 	}
 }
