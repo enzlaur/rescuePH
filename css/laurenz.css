@@ -255,12 +255,13 @@
 
 .nav.tab-bar
 {
-	background: #ff505d;
+	background: #ff505d;	
 }
 
 #background-image
-{
+{	
 	position: fixed;
+	top: 0px;
 	height: 768px;
 	width: 1366px;
 	min-height: 768px;	
