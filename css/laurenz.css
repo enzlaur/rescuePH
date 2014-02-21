@@ -128,12 +128,17 @@
 #front-largebox-bottom
 {
 	position: relative;
-	background: #d9534f; 
+	background: #ff505d; 
 	width: 100%; 
 	height: 768px;
 	padding-top: 80px;
+	transition: background 1s;
 }
-
+#front-largebox-bottom:hover
+{
+	background: #c72828; 
+	
+}
 
 .global-topbar
 {
