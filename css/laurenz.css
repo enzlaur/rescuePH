@@ -70,15 +70,39 @@
 	min-width: 200px;
 }
 
+#canvas-content
+{
+	margin-bottom: 1px;
+}
+#canvas-login
+{
+	width: 100%;
+	height: 40px;
+	line-height: 7px;
+}
+
 .enlarge
 {
 	min-height: 400px;
+	height: 100%;
 }
 
+#formbox
+{
+	border-radius: 3px;
+	background: white;
+	height: 400px;
+	width: 360px;
+}
 #font
 {
 	font-family: Rockwell;
 	font-size: 22px;
+}
+
+#front-where
+{
+	border: 0px;
 }
 .global-topbar
 {
@@ -140,34 +164,6 @@
     border-radius: 10px;
     margin: 0px;
 }
-#textput
-{
-	border-radius: 3px;
-	width: 80%;
-	min-width: 220px;
-}
-#title
-{
-	font-family: Rockwell;
-	font-size: 20px;
-}
-#tweetbox
-{
-	border-radius: 3px;
-	background: white;
-	height: 400px;
-	width: 600px;
-	
-
-}
-
-#formbox
-{
-	border-radius: 3px;
-	background: white;
-	height: 400px;
-	width: 360px;
-}
 
 #signin-box
 {
@@ -184,6 +180,21 @@
 {
 	border-radius: 3px;
 	padding-top: 100px;
+}
+
+#textput
+{
+	border-radius: 3px;
+	width: 80%;
+	min-width: 220px;
+}
+
+#tweetbox
+{
+	border-radius: 3px;
+	background: white;
+	height: 400px;
+	width: 600px;	
 }
 
 #tweetleft
@@ -233,13 +244,25 @@
 	
 }
 
-#canvas-content
+
+.nav.tab-bar
 {
-	margin-bottom: 1px;
+	background: #ff505d;
 }
-#canvas-login
+
+#background-image
 {
-	width: 100%;
-	height: 40px;
-	line-height: 7px;
+	position: fixed;
+	height: 768px;
+	width: 1366px;
+	min-height: 768px;	
+}
+
+@media(min-width: 1366px)
+{	
+	#background-image
+	{
+		height: 100%;
+		width: 100%;
+	}
 }

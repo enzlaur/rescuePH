@@ -3436,7 +3436,7 @@ blockquote p {
 
 nav.tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #ff505d;
   color: white;
   height: 2.8125rem;
   line-height: 2.8125rem;

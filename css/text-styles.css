@@ -1,0 +1,43 @@
+.title
+{
+	font-family: Rockwell;
+	margin-top: 30px;
+	transition: font-size 1s;
+}
+.title-sub
+{
+	font-family: Segoe UI Light;
+	margin-top: 10px;
+
+}
+.font-20
+{
+	font-size: 20px;
+}
+.font-50
+{
+	font-size: 50px;
+}
+.font-70
+{
+	font-size: 70px;
+}
+.font-white
+{
+	color: white;
+}
+
+@media (max-width: 1005px)
+{
+	.title
+	{
+		text-align: center;
+	}
+}
+@media (max-width: 400px)
+{
+	.title
+	{
+		font-size: 50px;
+	}
+}

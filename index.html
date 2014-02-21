@@ -3,11 +3,13 @@
 	
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>rescuePH | Front</title>	
+		<title>rescuePH</title>		
 		<link rel="stylesheet" href="css/laurenz.css">
+		<link rel="stylesheet" href="css/text-styles.css">	
 		<link rel="stylesheet" href="css/foundation.css"/>
 		<link rel="stylesheet" href="css/laurenz.css">
 		<link rel="stylesheet" href="css/normalize.css">
+		
 		<script src="/js/vendor/modernizr.js"></script>
 	</head>
 
@@ -16,22 +18,20 @@
 		<div class="off-canvas-wrap">
 		  <div class="inner-wrap ">
 		    <nav class="tab-bar background-red">
+		      	<section class="left-small background-red" id="left-ped">
+		        	<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+		      	</section>
 
-		      <section class="left-small background-red" id="left-ped">
-		        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-		      </section>
+		      	<section class="middle tab-bar-section background-red">
+			        <span id="title">rescuePH</span>
+			    </section>
 
-		      <section class="middle tab-bar-section background-red">
-		        <span id="title">rescuePH</span>
-		      </section>
-
-		      <section class="right-small right-mod" id="right-ped">
-		        <a class="right-off-canvas-toggle" style="color: white;">
-		        	Account
-	        	</a>
-		      </section>
-
-		    </nav>
+		      	<section class="right-small right-mod" id="right-ped">
+			        <a class="right-off-canvas-toggle" style="color: white;">
+			        	Account
+		        	</a>
+		      	</section>
+    		</nav>
 
 		    <aside class="left-off-canvas-menu">
 		      <ul class="off-canvas-list">
@@ -72,27 +72,38 @@
 		        </ul>
 		    </aside>
 
+		    <!-- 
+				THIS IS WHERE THE CONTENT IN THE MIDDLE GO IN :)
+		    -->
+		    
 		    <section class="main-section enlarge">
-		      <div class="row">
-		      	<div class="large-12 colums">
-		      		RescuePH
+	    		<div id="background-image">
+	    			<img src="img/haiyan-vintage.jpg">
+	    		</div>
+		      	<div class="row">
+		      		<div class="large-12 columns title font-70 font-white ">
+		      			RescuePH
+		      			<div class="title-sub font-50">
+		      				Something
+		      			</div>
+		      		</div>
 		      	</div>
-		      </div>
-		      <div class="row">
-		      	<div lcass="large-4 columns">
-		      		asdfasdfa
+		      	<hr>
+		      	<div class="row">
+		      		<div class="large-4 columns">
+		      			<input type="text" placeholder="name">
+		      		</div>
+			      	<div class="large-8 columns">
+			      		<input type="text" id="front-where" placeholder="Where">
+			      		<input type="text" id="front-details" placeholder="Details">
+			      		<input type="text" id="front-contactNumber"placeholder="Contact Number">		      	
+			      	</div>		      			      
 		      	</div>
-		      	<div class="large-8 columns">
-		      		<input type="text" placeholder="Where">
-		      		<input type="text" placeholder="Details">
-		      		<input type="text" placeholder="Contact Number">
-		      		
-		      	</div>
-		      	
 
-		      	
-		      </div>
 		    </section>
+
+
+
 
 		  <a class="exit-off-canvas"></a>
 
