@@ -85,7 +85,7 @@
 {
 	width: 200px;
 	height:200px;
-	background: #ff505d;
+	background: rgb(255, 80, 93);
 	border-radius: 120px;
 	margin-bottom: -50px;
 
@@ -119,7 +119,10 @@
 	background: #ff505d; 
 	width: 80%; 
 	height: 90px;
-	border-radius: 50px;
+    border: solid 1px;
+    border-top: 0px;
+    border-color: #d9534f;
+	border-radius: 70px;
 	position: absolute;
 	top: 460px;
 	left: 10%;
@@ -132,7 +135,7 @@
 	width: 100%; 
 	height: 768px;
 	padding-top: 80px;
-	transition: background 1s;
+	transition: background 0.5s;
 }
 #front-largebox-bottom:hover
 {
@@ -332,4 +335,26 @@
 	{		
 		top: 52%;
 	}
+}
+
+
+.border-left-maroon {
+    border-left: solid 1px;
+    border-color: rgb(201, 50, 50);    
+}
+
+.pad-top-20 {
+    padding-top: 20px;
+}
+
+.pad-top-50 {
+    padding-top: 50px;
+}
+
+.pad-top-100 {
+    padding-top: 100px;
+}
+
+.segoe {
+    font-family: Segoe UI Light;
 }
