@@ -324,29 +324,60 @@
 {
 	#front-largebox-top
 	{
-		top: 40%;
+		visibility: hidden;
 	}
 }
 @media(min-width: 510px) and (max-width: 710px)
 {
 	#front-largebox-top
 	{
-		top: 45%;
+		visibility: hidden;
 	}
+     #front-largebox-bottom
+    {
+        height: inherit;
+    }
+    #minititle
+    {
+        visibility: collapse;
+    }
 }
 @media(min-width: 350px) and (max-width: 510px)
 {
 	#front-largebox-top
 	{		
-		top: 50%;
+		visibility: hidden;
 	}
+     #front-largebox-bottom
+    {
+        height: inherit;
+    
+    }
+    #minititle
+    {
+        visibility: collapse;
+    }
 }
 @media(min-width: 100px) and (max-width: 350px)
 {
 	#front-largebox-top
 	{		
-		top: 52%;
+		visibility: hidden;
 	}
+    #front-largebox-bottom
+    {
+        height: inherit;
+    }
+    #minititle
+    {
+        visibility: collapse;
+        width: 0px;
+        
+    }
+    #modalclick
+    {
+        
+    }
 }
 
 
