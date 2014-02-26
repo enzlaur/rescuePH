@@ -1,6 +1,5 @@
-function changepage(obj)
-{	
-	console.log("pressed")	
+function changepage(obj){	
+	console.log("pressed");	
 	window.location.href = "front.html";
 }
 

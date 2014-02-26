@@ -2,3 +2,45 @@
 {
 	border-radius: 5px;
 }
+#instant-location {
+    margin-bottom: 1px;
+    height: 100px;    
+    word-wrap: break-word;            
+}
+
+#instant-names {
+    margin-bottom: 1px;
+    height: 50px;
+}
+
+#instant-send {
+    background: #ff505d;
+    color: white;    
+    height: 50px;
+    width: 250px;
+    padding-top: 0px;
+    border: 0px;
+    font-family: Segoe UI;
+    font-size: 20px;
+    transition: background 0.5s;
+}
+#instant-send:hover {
+    background: #fd2737;   
+}
+
+#instant-situation {
+    margin-bottom: 1px;
+}
+
+#modalClick {
+    color: white;
+    font-size: 20px;    
+}
+
+#modal-request {
+    background: #fff1f1;
+}
+
+#instant-contact {
+    margin-bottom: 1px;    
+}

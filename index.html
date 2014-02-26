@@ -28,7 +28,12 @@
 		      	</section>
 
 		      	<section class="middle tab-bar-section background-red">
-			        <span class="rockwell font-30">rescuePH</span>
+			        <span class="rockwell font-20">
+                        rescuePH |
+                        <a href="#" data-reveal-id="modal-request" data-reveal id="modalClick">
+                            Request Help
+                        </a>
+                    </span>
 			    </section>
 
 		      	<section class="right-small right-mod" id="right-ped">
@@ -42,12 +47,20 @@
 
 		    <aside class="left-off-canvas-menu">
 		      <ul class="off-canvas-list">
-		        <li><label>Foundation</label></li>
+		        <li><label>Foundation</label></li>                  
+                <li><a href="#" data-reveal-id="modal-request" data-reveal>Request Help</a></li>
 		        <li><a href="map.html">Heat Map</a></li>
 		        <li><a href="tweetmodule.html">Tweet Module</a></li>
-		        <li><a href="#">How To Use</a></li>
+		        <li><a href="#" data-reveal-id="modal-how" data-reveal>How To Use</a></li>
 		        <li><a href="#">Contact</a></li>
-		        <li><a href="#">History</a></li>
+                <li><label>Request Help Now</label></li>                
+                <li>
+                    <textarea name="location" placeholder="Location" id="instant-location"></textarea>
+                    <input type="text" placeholder="Names of Distressed" id="instant-names">
+                    <input type="text" placeholder="Situation" id="instant-situation">
+                    <input type="tel" placeholder="Your Contact Number" id="instant-contact">
+                    <input type="button" value="Send Request" id="instant-send">
+                </li>
 		      </ul>
 		    </aside>
 
@@ -243,6 +256,23 @@
 		  </div>
 		</div>				
 		
+        <!-- MODAL -->
+        <div id="modal-request" class="reveal-modal small" data-reveal>
+          <h2 class="rockwell">Help Request Form</h2>
+          <p class="lead">Please complete the following information</p>            
+            <textarea placeholder="Location" id="instant-location"></textarea>
+            <input type="text" placeholder="Names of Distressed" id="instant-names">
+            <input type="text" placeholder="Situation" id="instant-situation">
+            <input type="tel" placeholder="Your Contact Number" id="instant-contact">         
+            <button>Request Help</button>            
+          <a class="close-reveal-modal">&#215;</a>
+        </div>
+    
+        <div id="modal-how" class="reveal-modal small" data-reveal>
+          <h1 class="rockwell">How to use this site</h1>
+          <p class="lead">Please complete the following information</p>                                        
+          <a class="close-reveal-modal">&#215;</a>
+        </div>
 
 
 		<script src="js/vendor/jquery.js"></script>
