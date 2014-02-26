@@ -147,7 +147,7 @@
 	height: 100%;
 	padding-top: 80px;
 	transition: background 0.5s;
-    margin-bottom: 30px;
+    
 }
 #front-largebox-bottom:hover
 {
@@ -369,4 +369,8 @@
 
 .segoe {
     font-family: Segoe UI Light;
+}
+
+#superbottom {
+    
 }
