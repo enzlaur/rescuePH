@@ -17,7 +17,7 @@
 
 	<body class="body">	
 		<div id="background-image">
-	    			<img src="img/haiyan-darkened.jpg">
+	    			<img src="img/haiyan-darkened.jpg" id="img-backdrop">
 	    		</div>
 		<div class="off-canvas-wrap">
 		  <div class="inner-wrap">
@@ -105,7 +105,8 @@
 		      				Everybody Needs Rescuing
 		      			</div>
 		      			<div class="title-sub light font-25">
-		      				Because life's hard, life's stormy, life's floody, life's muddy, life's s*****.<Br>
+		      				Because life's hard, life's stormy, life's floody, life's muddy, life's 
+                            <span id="spoil">shitty</span>.<Br>
 		      				In short, welcome to the Philippines, where storms always pass by.<br>
 		      				RescuePH helps alleviate news/updates/requests for help<br>
 		      				wherever you are in the Philippines as long as you have internet connection.
@@ -224,15 +225,33 @@
                         </div>
                         <div class="large-7 columns">
                             <span style="font-size: 40px;">
-                                Microsoft Windows.                              
+                                Microsoft Azure.                              
                             </span>
                             <hr>
                             Because we don't trust <i class="step fi-social-apple" style="font-size:30px;"></i>.
                             I could also add <span style="font-family: Georgia; font-size:20px;"> Google </span>
-                            but I think that would be unfair.
+                            but I think that would be unfair. Using Microsoft's Azure cloud services, we make sure
+                            the data is always safe and secure, always up and running, always there when you need it.
                         </div>
                     </div>
-                    <!-- end div -->
+                    <div class="row font-white pad-top-50">
+                        <div class="large-5 columns">
+                            <center>
+                                <img src="assets/yeti-f5.png">
+                            </center>
+                        </div>
+                        <div class="large-7 columns">
+                            <span style="font-size: 40px;">
+                                Made with Foundation 5                              
+                            </span>
+                            <hr>
+                            <span class="font-30 font-segoe-light">
+                                The most advanced responsive <br>
+                                front-end framework in the world!
+                            </span>
+                        </div>
+                    </div>
+                    <!-- end div --> 
 				</div>
                 <!--
 				<div class="row background-red-evendarker" id="superbottom">
@@ -268,10 +287,18 @@
           <a class="close-reveal-modal">&#215;</a>
         </div>
     
-        <div id="modal-how" class="reveal-modal small" data-reveal>
-          <h1 class="rockwell">How to use this site</h1>
-          <p class="lead">Please complete the following information</p>                                        
-          <a class="close-reveal-modal">&#215;</a>
+        <div id="modal-how" class="reveal-modal medium" data-reveal>
+            <h1 class="rockwell">How to use this site</h1>
+            <p class="lead">Please complete the following information</p>                                        
+            1) The "Request Help" will show a pop up wherever you are in the site to send a request for help<br>
+            2) Location should be treated like an addressed<br>
+            3) Names of distressed -> include family name<br>
+            4) situation -> Fire/Robbery/Flood/Trapped<br>
+            5) Your contact number -> Local rescue groups will try to contact you regarding the situation either<br>
+            for directions, for identification of distressed, for clarification and for security purposes.<br>
+            (Please answer honestly).
+            <!-- For X Button -->
+            <a class="close-reveal-modal">&#215;</a>
         </div>
 
 
