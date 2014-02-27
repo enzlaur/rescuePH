@@ -340,6 +340,7 @@
     #minititle
     {
         visibility: collapse;
+        margin-right: -100px;
     }
 }
 @media(min-width: 350px) and (max-width: 510px)
@@ -356,6 +357,7 @@
     #minititle
     {
         visibility: collapse;
+        margin-right: -120px;
     }
 }
 @media(min-width: 100px) and (max-width: 350px)
@@ -371,7 +373,7 @@
     #minititle
     {
         visibility: collapse;
-        width: 0px;
+       margin-right: -170px;
         
     }
     #modalclick
