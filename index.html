@@ -17,8 +17,8 @@
 
 	<body class="body">	
 		<div id="background-image">
-	    			<img src="img/haiyan-darkened.jpg" id="img-backdrop">
-	    		</div>
+			<img src="img/haiyan-darkened.jpg" id="img-backdrop">
+		</div>
 		<div class="off-canvas-wrap">
 		  <div class="inner-wrap">
 		  	<div class="fixed">
@@ -30,15 +30,26 @@
 		      	<section class="middle tab-bar-section background-red">
 			        <span class="rockwell font-20">
                         <span id="minititle">rescuePH | </span>
+                        <a href="map.html" style="color:white;">Heat Map</a>
+                        <a href="tweetmodule.html" style="color:white;">Tweet Module</a>
+                        <!--
                         <a href="#" data-reveal-id="modal-request" data-reveal id="modalClick">
                             Request Help
                         </a>
+                        -->
+                    </span>
+                    <span id="loginarea" class="right">
+                        <form>  
+                            <input id="bar-username" type="text" placeholder="Username">
+                            <input id="bar-password"  type="password" placeholder="Password">
+                            <input id="bar-submit" type="button" value="LogIn"> 
+                        </form>
                     </span>
 			    </section>
 
 		      	<section class="right-small right-mod" id="right-ped">
 			        <a class="right-off-canvas-toggle" style="color: white;">
-			        	Account
+			        	
 		        	</a>
 		      	</section>
     		</nav>
@@ -74,7 +85,7 @@
 				        	<input type="password" placeholder="Password" id="canvas-content">
 				        </li>
 				        <button id="canvas-login">Log-In</button>
-			        <li><label>Register New</label>
+			            <li><label>Register New</label>
 			        	<li>
 				        	<input type="text" placeholder="First Name " id="canvas-content">
 				        </li>
@@ -98,28 +109,37 @@
 		    
 		    <section class="main-section enlarge">
 	    		
-		      	<div class="row">
-		      		<div class="large-12 columns title font-70 font-white ">
-		      			RescuePH
-		      			<div class="title-sub font-50">
+		      	<div class="row" id="banner">
+		      		<div class="large-6 columns title font-50 font-white ">
+		      			 
+		      			<div class="title-sub font-50">                            
 		      				Everybody Needs Rescuing
 		      			</div>
-		      			<div class="title-sub light font-25">
+                        <!--
+		      			<div class="title-sub light font-20">
 		      				Because life's hard, life's stormy, life's floody, life's muddy, life's 
                             <span id="spoil">shitty</span>.<Br>
 		      				In short, welcome to the Philippines, where storms always pass by.<br>
 		      				RescuePH helps alleviate news/updates/requests for help<br>
 		      				wherever you are in the Philippines as long as you have internet connection.
 		      			</div>
+                        -->
 		      			<hr>
 		      		</div>
+                    <div class="large-6 columns" id="urgency">
+                        <textarea name="location" placeholder="Location" id="urgent-location"></textarea>
+                        <input type="text" placeholder="Names of Distressed" id="urgent-names">
+                        <input type="text" placeholder="Situation" id="urgent-situation">
+                        <input type="tel" placeholder="Your Contact Number" id="urgent-contact">
+                        <input type="button" value="Send Request" id="urgent-send">
+                    </div>
 		      	</div>
-		      			      	
+                <div id="dropspace"> </div>
 		      	<div class="row">
 		      		<center>
 		      			<div class="large-12 columns rockwell font-white">
-		      				<div id="circle" style="line-height: 200px; font-size: 30px;"> 
-		      					Get Started	      				
+		      				<div id="circle"> 
+		      					Scroll Down for More	      				
 	      					</div>
 		      			</div>	
 		      		</center>		      		
@@ -258,12 +278,13 @@
                     Something
                 </div>
                 -->
+                <!--
 		      	<center>
 			      	<div id="front-largebox-top" class="font-white rockwell font-50" style="line-height:90px;">
 			      			Wow ah. So Much Help. 	
 			      	</div>
 		      	</center>
-		      	
+		      	-->
 		      	
 		    </section>
 

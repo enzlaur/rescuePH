@@ -44,3 +44,86 @@
 #instant-contact {
     margin-bottom: 1px;    
 }
+
+#urgency {
+    position: relative;
+    top: 100px;
+    margin-bottom: -10px;
+}
+
+#urgent-location {
+    border-radius: 3px;
+    height: 110px;
+}
+
+#urgent-names {
+    border-radius: 3px; 
+    margin-bottom: 1px;
+}
+
+#urgent-situation {
+    border-radius: 3px;
+    margin-bottom: 1px;
+}
+
+#urgent-contact {
+    border-radius: 3px;
+    margin-bottom: 1px;
+}
+
+#banner {
+    margin-bottom: -90px; 
+    padding-bottom: -20px;
+}
+
+#dropspace {
+    padding-top: 18%;
+}
+
+#urgent-send {
+    background: #ff505d;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    height: 50px;
+    width: 100%;
+}
+
+#loginarea {
+    background: #ff505d;
+    margin-right: 30px;
+    width: 500px;
+    height: 44px;
+    padding-top: 5px;
+}
+
+#bar-username {
+    position: relative;
+    width: 200px;
+    left: 0;
+    border: 0px;
+    border-radius: 5px;
+}
+    
+
+#bar-password {
+    position: relative;
+    bottom: 53px;
+    left: 41%;
+    width: 200px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#bar-submit {
+    position: relative;
+    background: black;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    width: 95px;
+    height: 39px;
+    text-align: center;
+    bottom: 110px; 
+    left: 82%;
+}

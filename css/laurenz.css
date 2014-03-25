@@ -94,8 +94,11 @@
 
 #circle
 {
+    font-size: 30px;
+    line-height: 24px;
 	width: 200px;
 	height:200px;
+    padding-top: 45px;
 	background: rgb(255, 80, 93);
 	border-radius: 120px;
 	margin-bottom: -50px;
@@ -415,3 +418,43 @@
     -ms-filter: blur(5px);
 }
 
+
+#welcome-bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 1366px;
+    width: 100%;
+    image-resolution: snap;
+    -webkit-filter: blur(0.8px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    
+}
+
+#welcome-bg-cover {
+    width: 100%;
+    height: 100%;    
+    position: fixed;    
+    top: 0px;
+    left: 0px;
+    background: #ce2a36;
+    opacity: 0.8;
+}
+
+#welcome-title {        
+    color: white; 
+    font-family: Rockwell;
+    font-size: 72px;
+}
+
+#Welcome-center {
+    margin-top: 10em;
+}
+
+#welcome-title-sub {
+    font-family: Segoe UI Light;
+    font-size: 20px;
+    color: white;
+}
